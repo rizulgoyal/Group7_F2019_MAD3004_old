@@ -9,6 +9,8 @@
 import Foundation
 class Employee{
     
+    var employeeID : Int?
+    var employeeName : String?
     
     
 }
