@@ -23,5 +23,7 @@ struct Vehicle {
     }
     
     //protocol method
-    
+    func printmydata()  {
+        
+    }
 }
