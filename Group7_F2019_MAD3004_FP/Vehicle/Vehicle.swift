@@ -8,5 +8,12 @@
 
 import Foundation
 struct Vehicle {
-    <#fields#>
+    
+    //declared variables
+    
+    private var make :String
+    private var plate :String
+    private var vehicle :BooleanLiteralType
+    
+    
 }
