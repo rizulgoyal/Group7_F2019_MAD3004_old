@@ -7,3 +7,6 @@
 //
 
 import Foundation
+struct Vehicle {
+    <#fields#>
+}

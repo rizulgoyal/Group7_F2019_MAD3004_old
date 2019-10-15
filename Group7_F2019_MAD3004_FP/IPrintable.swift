@@ -6,4 +6,9 @@
 //  Copyright © 2019 MacStudent. All rights reserved.
 //
 
-import Foundation
+
+
+Protocol IPrintable
+{
+    func PrintMyData()
+}
