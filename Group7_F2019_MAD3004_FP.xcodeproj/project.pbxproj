@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2639B2B523567F1D002B9109 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2639B2B423567F1D002B9109 /* Vehicle.swift */; };
+		2639B2B723567F82002B9109 /* IPrintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2639B2B623567F82002B9109 /* IPrintable.swift */; };
 		9B826FB623567C9B00113F11 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B826FB523567C9B00113F11 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2639B2B423567F1D002B9109 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		2639B2B623567F82002B9109 /* IPrintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPrintable.swift; sourceTree = "<group>"; };
 		9B826FB223567C9B00113F11 /* Group7_F2019_MAD3004_FP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group7_F2019_MAD3004_FP; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B826FB523567C9B00113F11 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2639B2B323567E9C002B9109 /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				2639B2B423567F1D002B9109 /* Vehicle.swift */,
+			);
+			path = Vehicle;
+			sourceTree = "<group>";
+		};
 		9B826FA923567C9B00113F11 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +69,9 @@
 		9B826FB423567C9B00113F11 /* Group7_F2019_MAD3004_FP */ = {
 			isa = PBXGroup;
 			children = (
+				2639B2B323567E9C002B9109 /* Vehicle */,
 				9B826FB523567C9B00113F11 /* main.swift */,
+				2639B2B623567F82002B9109 /* IPrintable.swift */,
 			);
 			path = Group7_F2019_MAD3004_FP;
 			sourceTree = "<group>";
@@ -89,7 +103,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = MacStudent;
 				TargetAttributes = {
 					9B826FB123567C9B00113F11 = {
@@ -119,6 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2639B2B723567F82002B9109 /* IPrintable.swift in Sources */,
+				2639B2B523567F1D002B9109 /* Vehicle.swift in Sources */,
 				9B826FB623567C9B00113F11 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +260,7 @@
 		9B826FBA23567C9B00113F11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -253,6 +270,7 @@
 		9B826FBB23567C9B00113F11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
