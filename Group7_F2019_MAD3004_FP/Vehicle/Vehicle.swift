@@ -11,9 +11,10 @@ struct Vehicle {
     
     //declared variables
     
-    private var make :String
-    private var plate :String
-    private var vehicle :BooleanLiteralType
+     var make :String
+     var plate :String
+     var vehicle :BooleanLiteralType
     
-    
+    //Contructors
+     I
 }
