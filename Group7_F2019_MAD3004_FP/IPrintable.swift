@@ -7,8 +7,8 @@
 //
 
 
-
-Protocol IPrintable
+import Foundation
+protocol PrintMyData
 {
-    func PrintMyData()
+    func printmydata()
 }
