@@ -9,6 +9,7 @@
 import Foundation
 class Employee{
     
+    // new variables
     
     var employeeID : Int?
     var employeeName : String?
@@ -24,6 +25,7 @@ class Employee{
         self.employeeName=employeeName
         self.employeeAge=employeeAge
     }
+    
     
     
     
