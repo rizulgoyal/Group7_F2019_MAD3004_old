@@ -19,6 +19,6 @@ struct Vehicle {
     init (make :String,plate :String, vehicle :String) {
         self.make = make
         self.plate = plate
-        self.vehicle =vehicle
+        self.vehicle = vehicle
     }
 }
