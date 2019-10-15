@@ -19,6 +19,13 @@ class Employee{
         return self.employeeAge!-currentYear
     }
     
+    init(employeeID:Int,employeeName:String,employeeAge:Int) {
+        self.employeeID=employeeID
+        self.employeeName=employeeName
+        self.employeeAge=employeeAge
+    }
+    
+    
     
     
     
