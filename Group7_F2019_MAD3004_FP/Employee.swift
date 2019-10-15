@@ -11,6 +11,9 @@ class Employee{
     
     var employeeID : Int?
     var employeeName : String?
+    var employeeAge : Int?
+    var birthYear : Int?
+    
     
     
 }
