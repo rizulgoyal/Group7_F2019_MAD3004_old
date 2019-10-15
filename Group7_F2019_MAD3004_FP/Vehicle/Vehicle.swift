@@ -16,5 +16,9 @@ struct Vehicle {
      var vehicle :BooleanLiteralType
     
     //Contructors
-     I
+    init (make :String,plate :String, vehicle :String) {
+        self.make = make
+        self.plate = plate
+        self.vehicle =vehicle
+    }
 }
